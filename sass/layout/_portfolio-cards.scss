@@ -1,12 +1,14 @@
 .portfolio-card {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
 .portfolio-card__item {
-  width: 370px;
-  margin: 15px;
+  width: 100%;
+  margin: 15px 0;
 }
 
 .portfolio-card__bottom {
@@ -44,7 +46,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  padding: 63px 24px;
+  padding: 77px 24px;
   top: 0;
   left: 0;
   font-weight: 400;

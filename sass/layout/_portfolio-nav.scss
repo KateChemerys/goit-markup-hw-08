@@ -1,11 +1,14 @@
 .portfolio-button {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
-.portfolio-button__item:not(:last-child) {
-  margin-right: 8px;
+.portfolio-button__item {
+  margin-bottom: 15px;
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .portfolio-button {

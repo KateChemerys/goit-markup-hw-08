@@ -18,8 +18,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 527px;
-  height: 580px;
+  width: 450px;
+  height: 609px;
   background-color: var(--accent-color-secondary);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 2px;
@@ -59,10 +59,11 @@
 }
 
 .form__title {
-  margin: 0 auto 12px auto;
+  margin-bottom: 12px;
+  text-align: center;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   color: var(--title-text-color);
 }
 
@@ -104,6 +105,7 @@
   height: 120px;
   resize: none;
   padding: 12px 16px;
+  margin-bottom: 10px;
   font-size: 12px;
   line-height: 1.16;
   color: rgba(117, 117, 117, 0.5);
@@ -119,8 +121,8 @@
 }
 
 .form__policy {
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
 }
 
 .policy__link {
@@ -159,6 +161,7 @@
   color: var(--accent-color-secondary);
   font-weight: 700;
   font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   border: 1px solid transparent;
   border-radius: 4px;

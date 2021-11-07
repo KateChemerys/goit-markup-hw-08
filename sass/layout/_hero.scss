@@ -9,17 +9,21 @@
     ),
     url(../images/bckgr.jpg);
   text-align: center;
-  padding: 200px 0;
+}
+
+.hero__container {
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .hero__title {
   color: var(--accent-color-secondary);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.61;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0 auto 30px auto;
+  margin-bottom: 30px;
   max-width: 696px;
 }
 
