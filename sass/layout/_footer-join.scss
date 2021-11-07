@@ -1,0 +1,55 @@
+.footer__join {
+  margin-left: 93px;
+}
+
+.join__form {
+  display: flex;
+}
+
+.join__email {
+  width: 358px;
+  height: 50px;
+  padding: 0 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: border-color 250ms var(--time-function);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color-primary);
+  }
+}
+
+.join__button {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  border: none;
+  color: var(--accent-color-secondary);
+  background-color: var(--accent-color-primary);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: background-color 250ms var(--time-function);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}
+
+.join__icon {
+  fill: var(--accent-color-secondary);
+  margin-left: 10px;
+}

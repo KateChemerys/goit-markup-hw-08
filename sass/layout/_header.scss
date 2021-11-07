@@ -1,0 +1,13 @@
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  background-color: var(--accent-color-secondary);
+  border-bottom: 1px solid var(--header-border);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
